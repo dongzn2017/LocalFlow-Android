@@ -1,0 +1,31 @@
+# Android and Gradle build output
+.gradle/
+build/
+**/build/
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# Signing material and local secrets
+*.jks
+*.keystore
+keystore.properties
+*.pem
+*.p12
+*.pfx
+*.env
+
+# Models and release binaries belong in external downloads or GitHub Releases
+*.gguf
+*.bin
+*.apk
+*.aab
+*.apks
+*.zip
+
+# Local installer cache
+.cache/
+downloads/
+platform-tools/
