@@ -29,3 +29,7 @@ keystore.properties
 .cache/
 downloads/
 platform-tools/
+
+# Local release staging output
+release-staging/
+*.sha256
